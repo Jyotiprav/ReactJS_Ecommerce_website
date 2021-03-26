@@ -1,0 +1,61 @@
+npm install --save bootstrap
+
+in app.js import the bs4
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+download fontawesome
+https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
+
+put all.css and webfonts folder of fontawesome into public folder. write the code in index.html
+<link href="all.css" rel="stylesheet"> <!--load all styles -->
+
+test it by putting 
+ <div className="container">
+     <div className="row">
+       <div className="col-6">
+         <i className="fas fa-home"></i>
+       </div>
+     </div>
+   </div>
+
+   inside app.js
+
+   change app.css
+
+   install follwing extention for react
+   https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
+   bracket pair colorizer
+   indent rainbow
+
+   create components
+
+   npm install --save react-router-dom
+
+  add router inside index.js
+
+  add links and switch insode app.js
+
+  start working on navbar
+
+  download styled-components:npm i --save styled-components
+
+
+  get the data about products and store it inside data.js 
+
+  start working on productlist
+
+  create context.js for sharing data about product in all components
+  add <ProductProvider> inside index.js as top parent and add <ProductConsumer> inside Productlist.js
+
+  access data from context.js inside productlist.js with two other functions
+
+  update product.js
+  
+  update context.js, accept a copy of data from data.js not a ref to original data.
+
+  change details
+
+  add to cart functinality
+
+  cart component and package.json
+  

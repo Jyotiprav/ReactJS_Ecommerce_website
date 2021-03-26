@@ -1,0 +1,38 @@
+:root{
+  --mainPurple: #848ccf;
+  --mainPink: #be5683;
+  --mainbeige: #ffe4e4;
+  --lightBlue: #93b5e1;
+}
+body{
+  /* use important to override bootstrap style */
+  font-family: 'Lora', serif !important;
+  /* background: var(--mainbeige) !important; */
+  color:black !important;
+}
+/* since the following is custom class, you don't need to use !important */
+.text-title{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.text-pink{
+  color:var(--mainPink);
+}
+.text-bright{
+  color: var(--lightBlue);
+}
+.btn-black{
+  background:transparent;
+  color:black;
+  border-radius: 0 !important;
+  border:2px solid black !important;
+}
+.btn-black:hover{
+  background:black !important;
+  color:white !important;
+}
+.cart-icon{
+  cursor:pointer;
+  font-size:15px;
+  color:var(--mainPink);
+}
