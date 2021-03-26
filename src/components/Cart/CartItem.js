@@ -7,7 +7,7 @@ class CartItem extends Component {
         return (
             <div className="row my-2 text-center">
                 <div className="col-10 mx-auto col-lg-2">
-                    <img src={img} style={{width:'50px',height:"50px"}} className="img-fluid"></img>
+                    <img src={img} style={{width:'50px',height:"50px"}} className="img-fluid" alt=""></img>
                 </div>
                 <div className="col-10 mx-auto col-lg-2">
                     <span className="d-lg-none">product:</span>{title}
